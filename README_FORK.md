@@ -2,6 +2,7 @@
 
 ## 🔷 Method 1: pip install (Local Python Packages)
 ✅ gives you libraries & you build the app/service.
+
 ✅ If your resume repo is Python which is same language that Presidio is written in, stick with pip install.
 
 This is useful if:
@@ -12,6 +13,7 @@ This is useful if:
 
 ## 🔷 Method 2: Docker images (Prebuilt Services)
 ✅ gives you full-fledged prebuilt services you just run.
+
 ✅ If your resume repo is not Python, use the Docker images.
 
 This is useful if:
@@ -21,7 +23,9 @@ This is useful if:
 
 ## 🔷 Method 3: From source:
 ✅ More transparency — you can inspect and modify the code.
+
 ✅ No dependency on pre-built Docker images.
+
 ✅ You can install in virtualenvs or system Python.
 
 🧰 How to architect this:
